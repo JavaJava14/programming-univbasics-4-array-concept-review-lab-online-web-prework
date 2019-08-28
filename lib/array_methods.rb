@@ -9,13 +9,13 @@ end
 
 def find_max_value(array)
   max = 0
-    array.length.times do |index|
-      if array|index| > max
-        max = array[index]
-      end
-    end
-    max
-  end
+   array.length.times do |count|
+     if array[count] > max
+       max = array[count]
+     end
+   end
+ max
+end
 def find_min_value(array)
   # Add your solution here
 end
